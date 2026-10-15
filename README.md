@@ -1,11 +1,11 @@
-# T-Rex AI
+# Dino AI
 
-T-Rex AI permite controlar el salto del juego del dinosaurio de Chrome usando una camara web y los movimientos de una mano. El programa detecta los dedos con MediaPipe y envia una pulsacion de `Espacio` cuando detecta que un dedo baja, haciendo que el dinosaurio salte.
+Dino AI permite controlar el salto del juego del dinosaurio de Chrome usando una camara web y los movimientos de una mano, este programa detecta los dedos con MediaPipe y envia una petición a la tecla "space" cuando detecta que un dedo baja, haciendo que el dinosaurio salte.
 
 ## Requisitos
 
 - Windows, macOS o Linux.
-- Python 3.9 o superior.
+- Python 3.12 o superior.
 - Una camara web funcional.
 - Permiso del sistema para usar la camara.
 - Google Chrome o un navegador compatible con el juego del dinosaurio.
