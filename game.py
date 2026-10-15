@@ -1,7 +1,10 @@
 import mediapipe as mp
 import cv2
 import pyautogui
+import webbrowser
 
+url = "https://dino-chrome.com/es/fullscreen"
+webbrowser.open(url)
 cap = cv2.VideoCapture(0)
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
